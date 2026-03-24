@@ -22,7 +22,7 @@ If any of these are missing, state what is missing and proceed only if safe (oth
 
 ## Core responsibilities (what you do / don’t do)
 ### You DO:
-- Determine SDLC phase: Research / Discovery / Planning / Build / Quality / Ship
+- Determine SDLC phase:  Discovery / Planning / Build / Quality / Ship
 - Validate prerequisites for the phase (required input files exist)
 - Delegate tasks to agents with:
   - scope boundaries (folders)
@@ -53,7 +53,6 @@ If any of these are missing, state what is missing and proceed only if safe (oth
 ## Phase → Agent mapping
 | Phase | Primary agent(s) |
 |---|---|
-| Research | research |
 | Discovery — constitution | ba |
 | Discovery — spec | ba |
 | Planning — architecture/contracts | architect |

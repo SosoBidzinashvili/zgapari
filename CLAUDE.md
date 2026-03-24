@@ -67,7 +67,6 @@ zgapari/
 Every feature follows this exact sequence. Nothing skips a phase.
 
 ```
-Phase 0  → Research agent      — feasibility spikes, payment research, legal
 Phase 1  → BA agent            — constitution, user stories, acceptance criteria
 Phase 1  → BA agent            — clarify ambiguities before design
 Phase 2  → UX Designer agent   — ux-spec.md — every screen, state, copy
@@ -99,7 +98,6 @@ All agents are called manually. You are always in control.
 | `use ship skill` | DevOps creates the PR |
 
 You can also call agents directly:
-- `research agent — evaluate Georgian LLM quality`
 - `architect agent — review the data model for the child profile feature`
 - `code reviewer — check the payment integration code`
 
@@ -138,10 +136,10 @@ You can also call agents directly:
 
 | Area | Owner |
 |---|---|
-| `/frontend` | Soso |
-| `/backend` | Partner |
-| `.specify/` | Both |
-| `.claude/` | Both |
+| `/frontend` | TBD |
+| `/backend` | TBD |
+| `.specify/` | TBD |
+| `.claude/` | TBD |
 | Architecture decisions | Both (discuss before deciding) |
 
 ---
@@ -149,7 +147,7 @@ You can also call agents directly:
 ## Current status
 
 Check `.specify/specs/` to see which features have been built.
-Check `.specify/research/` to see which Phase 0 research is complete.
+Research phase (Phase 0) is complete. Reports are in .specify/research/
 The first thing to do is run the `constitution` skill, then the `research` agent for Phase 0.
 
 ---
