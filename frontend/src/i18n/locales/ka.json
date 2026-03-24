@@ -1,0 +1,16 @@
+{
+  "tagline_geo": "გახადე შენი შვილი ქართული ზღაპრის გმირად",
+  "tagline_en": "Turn your child into the hero of their own Georgian fairy tale",
+  "email_placeholder": "ელ-ფოსტა / Email address",
+  "email_aria_label": "Email address",
+  "submit": "შეგატყობინებ — Notify me",
+  "loading": "...",
+  "thankyou_heading": "გმადლობთ! / Thank you!",
+  "thankyou_line1": "შეგატყობინებთ გახსნისთანავე.",
+  "thankyou_line2": "We'll let you know as soon as we launch.",
+  "error_empty": "გთხოვთ შეიყვანოთ ელ-ფოსტა / Please enter your email",
+  "error_conflict": "ეს ელ-ფოსტა უკვე რეგისტრირებულია / This email is already registered",
+  "error_server": "დაფიქსირდა შეცდომა — სცადეთ თავიდან / Something went wrong, please try again",
+  "error_network": "ქსელის შეცდომა — სცადეთ თავიდან / Network error — please try again",
+  "footer": "© 2026 Zghapari"
+}
