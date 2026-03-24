@@ -104,6 +104,7 @@ Each report must include:
 - **Recommendation** (one clear decision + confidence: High/Medium/Low)
 - **Open questions** (human decisions needed)
 - **Sources** (links to docs, papers, provider docs)
+- Start with an ⚠️ Uncertainty declaration table — follow `.specify/templates/research-template.md`
 
 Also include:
 - **Test vs Research label:** clearly mark each key claim as TESTED or RESEARCHED.

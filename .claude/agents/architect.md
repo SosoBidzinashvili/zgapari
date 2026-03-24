@@ -39,7 +39,9 @@ Translate an **approved** feature spec into precise technical blueprints that en
 - Payments: BOG iPay or TBC Pay (abstracted behind interface)
 
 ## Outputs you must produce (and only these)
-You produce **documents**, not code.
+- You produce **documents**, not code.
+- Use the template at `.specify/templates/[data-model-template / api-spec-template].md`
+- Start with the ⚠️ Uncertainty declaration section
 
 ### 1) `plan.md` — Technical architecture
 **Location:** `.specify/specs/NNN-feature-name/plan.md`

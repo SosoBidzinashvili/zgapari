@@ -161,3 +161,35 @@ The first thing to do is run the `constitution` skill, then the `research` agent
 3. `.docs/Zghapari_Development_Plan.docx` — full product and technical plan
 4. `.docs/pre_development_roadmap.md` — what to do before writing code
 5. `.specify/research/` — findings from Phase 0 spikes
+
+## Global uncertainty rule — all agents must follow this
+
+This is the most important rule for reducing hallucinations.
+
+**If you are not certain — say so. Never guess silently.**
+
+Every agent output must start with an ⚠️ Uncertainty declaration section.
+Use this format:
+
+| Claim | Basis | Confidence |
+|---|---|---|
+| [What you're asserting] | [How you know — tested / docs / inferred] | High / Medium / Low |
+
+### The three levels
+- **High** — you tested this directly or it comes from official documentation you read
+- **Medium** — based on documentation but not directly tested, or inferred from related facts
+- **Low** — educated guess — flag this loudly and ask the developer before proceeding
+
+### When to stop and ask instead of guessing
+Stop and ask the developer when:
+- Confidence is Low on anything that affects architecture or data model
+- You encounter something not covered in the spec, plan, or constitution
+- Two sources of information contradict each other
+- You are about to make a decision that is hard to reverse
+
+### What never to do
+- Never invent an API endpoint shape not in api-spec.md
+- Never invent a table column not in data-model.md
+- Never assume a research finding if the research report doesn't exist
+- Never mark a checklist item as passing if you didn't verify it
+- Never write ✅ on something you didn't check
