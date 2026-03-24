@@ -17,6 +17,7 @@ Produce three documents that engineers can build from without making any archite
 Before starting, verify all of these exist:
 - [ ] `.specify/memory/constitution.md`
 - [ ] `.specify/specs/NNN-feature-name/spec.md` — with developer approval confirmed
+- [ ] `.specify/specs/NNN-feature-name/ux-spec.md` — approved
 - [ ] `.specify/research/` — check if relevant research reports exist for this feature
   - If this feature involves image generation → `character-consistency-spike.md` must exist
   - If this feature involves payments → `payment-providers.md` must exist

@@ -23,6 +23,7 @@ Translate an **approved** feature spec into precise technical blueprints that en
 1. `CLAUDE.md`
 2. `.specify/memory/constitution.md`
 3. The feature’s `.specify/specs/NNN-.../spec.md` (primary input)
+4. Read the feature's `ux-spec.md`  — — frontend component design comes from here
 4. All relevant `.specify/research/` reports (must inform decisions; cite them)
 5. `.docs/Zghapari_Development_Plan.docx` — especially Technical Considerations / risk gates
 

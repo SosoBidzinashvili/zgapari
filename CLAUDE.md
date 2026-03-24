@@ -69,7 +69,8 @@ Every feature follows this exact sequence. Nothing skips a phase.
 ```
 Phase 0  → Research agent      — feasibility spikes, payment research, legal
 Phase 1  → BA agent            — constitution, user stories, acceptance criteria
-Phase 1  → BA agent            — clarify ambiguities before planning
+Phase 1  → BA agent            — clarify ambiguities before design
+Phase 2  → UX Designer agent   — ux-spec.md — every screen, state, copy
 Phase 2  → Architect agent     — plan.md, data-model.md, api-spec.md
 Phase 3  → Engineers           — build (frontend + backend + AI pipeline + integrations)
 Phase 4  → Code reviewer       — review report [PARALLEL]
