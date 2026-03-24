@@ -90,6 +90,7 @@ All agents are called manually. You are always in control.
 | `use constitution skill` | BA writes the project constitution |
 | `use specify skill — [idea]` | BA writes a feature spec |
 | `use clarify skill` | BA fills gaps in the current spec |
+| `use ux-spec skill`          | UX Designer designs every screen, state, and copy |
 | `use plan skill — [constraints]` | Architect designs the system |
 | `use tasks skill` | Orchestrator breaks plan into tasks |
 | `use implement skill` | Engineers build the feature |
